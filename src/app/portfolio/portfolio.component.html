@@ -1,0 +1,85 @@
+<section class="text-center p-5 m-5">
+    <h1 class="pt-4">PORTFOLIO COMPONENT</h1>
+    <i class="fa-solid fa-star"></i>
+     <br><br><br><br> 
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 g-3">
+                    <div  class="parent position-relative">
+                        <img src="./assets/image/poert1.png" width="100%" alt="">
+                        <div (click)=" imgSrc(layer1) " class=" layer">
+                            <i class="fa-solid fa-plus fa-6x"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 g-3">
+                    <div class="parent position-relative">
+                        <img src="./assets/image/port2.png" width="100%" alt="">
+                        <div (click)=" imgSrc(layer2) " class=" layer">
+                            <i class="fa-solid fa-plus fa-6x"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 g-3">
+                    <div class="parent position-relative">
+                        <img src="./assets/image/port3.png" width="100%" alt="">
+                        <div (click)=" imgSrc(layer3) " class=" layer">
+                            <i class="fa-solid fa-plus fa-6x"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 g-3">
+                    <div class="parent position-relative">
+                        <img src="./assets/image/poert1.png" width="100%" alt="">
+                        <div (click)=" imgSrc(layer1) " class=" layer">
+                            <i class="fa-solid fa-plus fa-6x"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 g-3">
+                    <div class="parent position-relative">
+                        <img src="./assets/image/port2.png" width="100%" alt="">
+                        <div (click)=" imgSrc(layer2) " class=" layer">
+                            <i class="fa-solid fa-plus fa-6x"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 g-3">
+                    <div class="parent position-relative">
+                        <img src="./assets/image/port3.png" width="100%" alt="">
+                        <div (click)=" imgSrc(layer3) " class=" layer">
+                            <i class="fa-solid fa-plus fa-6x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+</section>
+
+
+
+
+
+<div (click)=" close(layer1) " #layer1 class="light-container d-none" >
+    <div class="light-box d-flex justify-content-center align-items-center mt-5">
+        <img src="./assets/image/poert1.png" class="w-50" alt="">
+    </div>
+</div>
+
+<div (click)=" close(layer2) " #layer2 class="light-container d-none" >
+    <div class="light-box d-flex justify-content-center align-items-center mt-5">
+        <img src="./assets/image/port2.png" class="w-50" alt="">
+    </div>
+</div>
+
+<div (click)=" close(layer3) " #layer3 class="light-container d-none" >
+    <div class="light-box d-flex justify-content-center align-items-center mt-5">
+        <img src="./assets/image/port3.png" class="w-50" alt="">
+    </div>
+</div>

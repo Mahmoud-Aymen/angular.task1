@@ -1,0 +1,36 @@
+section{
+    min-height: 80vh;
+    background-color: #1ABC9C;
+}
+
+h1{
+    color: white;
+}
+
+i{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+section h1::before{
+    content: "";
+    background-color: white;
+    width: 150px;
+    height: 5px;
+    position: absolute;
+    top: 90%;
+    left: 30%;
+}
+
+section h1::after{
+    content: "";
+    background-color: white;
+    width: 150px;
+    height: 5px;
+    position: absolute;
+   top: 90%;
+   right: 30%;
+}
